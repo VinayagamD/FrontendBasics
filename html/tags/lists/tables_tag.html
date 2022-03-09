@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+
+<body>
+
+    <h2><u>Simple Table</u></h2>
+    <hr>
+    <table>
+        <tr>
+            <th>Sl No</th>
+            <th>Name</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Apple</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Orange</td>
+            <td>70</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Grapes</td>
+            <td>70</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Mango</td>
+            <td>40</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Kiwi</td>
+            <td>90</td>
+        </tr>
+    </table>
+    <hr>
+    <h2><u>Simple Table With Width</u></h2>
+    <hr>
+    <table>
+        <tr>
+            <th width="10%">Sl No</th>
+            <th width="40%">Name</th>
+            <th width="10%">Price</th>
+        </tr>
+        <tr>
+            <td width="10%">1</td>
+            <td width="40%">Apple</td>
+            <td width="10%">100</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Orange</td>
+            <td>70</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Grapes</td>
+            <td>70</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Mango</td>
+            <td>40</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Kiwi</td>
+            <td>90</td>
+        </tr>
+    </table>
+    <hr>
+    <h2><u>Simple Table With Width And Border</u></h2>
+    <hr>
+    <table border="1">
+        <tr>
+            <th width="10%">Sl No</th>
+            <th width="40%">Name</th>
+            <th width="10%">Price</th>
+        </tr>
+        <tr>
+            <td width="10%">1</td>
+            <td width="40%">Apple</td>
+            <td width="10%">100</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Orange</td>
+            <td>70</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Grapes</td>
+            <td>70</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Mango</td>
+            <td>40</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Kiwi</td>
+            <td>90</td>
+        </tr>
+    </table>
+    <hr>
+    <h2>Caption</h2>
+    <hr>
+    <table>
+        <caption>He-Man and Skeletor facts</caption>
+        <tr>
+            <td> </td>
+            <th scope="col">He-Man</th>
+            <th scope="col">Skeletor</th>
+        </tr>
+        <tr>
+            <th scope="row">Role</th>
+            <td>Hero</td>
+            <td>Villain</td>
+        </tr>
+        <tr>
+            <th scope="row">Weapon</th>
+            <td>Power Sword</td>
+            <td>Havoc Staff</td>
+        </tr>
+        <tr>
+            <th scope="row">Dark secret</th>
+            <td>Expert florist</td>
+            <td>Cries at romcoms</td>
+        </tr>
+    </table>
+    <hr>
+    <h2>Col Group</h2>
+    <hr>
+    <table>
+        <caption>Superheros and sidekicks</caption>
+        <colgroup>
+            <col>
+            <col span="2" class="batman">
+            <col span="2" class="flash">
+        </colgroup>
+        <tr>
+            <td> </td>
+            <th scope="col">Batman</th>
+            <th scope="col">Robin</th>
+            <th scope="col">The Flash</th>
+            <th scope="col">Kid Flash</th>
+        </tr>
+        <tr>
+            <th scope="row">Skill</th>
+            <td>Smarts</td>
+            <td>Dex, acrobat</td>
+            <td>Super speed</td>
+            <td>Super speed</td>
+        </tr>
+    </table>
+    <hr>
+    <h2>Cell Padding And Cell Spacing</h2>
+    <hr>
+    <table border="1" cellspacing="5" cellpadding="5%">
+        <tr>
+            <th width="10%">Sl No</th>
+            <th width="40%">Name</th>
+            <th width="10%">Price</th>
+        </tr>
+        <tr>
+            <td width="10%">1</td>
+            <td width="40%">Apple</td>
+            <td width="10%">100</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Orange</td>
+            <td>70</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Grapes</td>
+            <td>70</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Mango</td>
+            <td>40</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Kiwi</td>
+            <td>90</td>
+        </tr>
+    </table>
+    <hr>
+    <h2>Colspan And Row Span</h2>
+    <hr>
+    <table border="1">
+        <tr>
+            <th width="10%" rowspan="2">Sl No</th>
+            <th width="40%" rowspan="2">Name</th>
+            <th width="10%" colspan="2">Price</th>
+        </tr>
+        <tr>
+            <th>Original Price</th>
+            <th>Discount</th>
+        </tr>
+        <tr>
+            <td width="10%">1</td>
+            <td width="40%">Apple</td>
+            <td width="10%">100</td>
+            <td width="10%">5%</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Orange</td>
+            <td>70</td>
+            <td>10%</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Grapes</td>
+            <td>70</td>
+            <td>20%</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Mango</td>
+            <td>40</td>
+            <td>10%</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Kiwi</td>
+            <td>90</td>
+            <td>5%</td>
+        </tr>
+    </table>
+    <hr>
+
+    <table border="1">
+        <thead cellspaing="10" cellpadding="10%">
+            <tr>
+                <th colspan="4">
+                    <h1>Fruits Menu</h1>
+                </th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th width="10%" rowspan="2">Sl No</th>
+                <th width="40%" rowspan="2">Name</th>
+                <th width="10%" colspan="2">Price</th>
+            </tr>
+            <tr>
+                <th>Original Price</th>
+                <th>Discount</th>
+            </tr>
+            <tr>
+                <td width="10%">1</td>
+                <td width="40%">Apple</td>
+                <td width="10%">100</td>
+                <td width="10%">5%</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Orange</td>
+                <td>70</td>
+                <td>10%</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Grapes</td>
+                <td>70</td>
+                <td>20%</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Mango</td>
+                <td>40</td>
+                <td>10%</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Kiwi</td>
+                <td>90</td>
+                <td>5%</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+
+</body>
+
+</html>
