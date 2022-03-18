@@ -1,0 +1,12 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /* background-color: brown; */
+    /* background-image: url('../images/tree.webp'); */
+    /* background: linear-gradient(black, white); */
+    background: radial-gradient(circle, black, white);
+    color: red;
+}
