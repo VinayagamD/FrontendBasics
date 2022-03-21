@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.myheader {
+    width: 100vw;
+    height: 5vh;
+    background-color: cadetblue;
+}
+
+nav ul {
+    align-content: flex-end;
+    display: inline;
+    align-items: center;
+}
+
+li {
+    padding: 5px;
+    margin: 5px;
+    display: inline-block;
+    content: none;
+    color: azure;
+    font: 1.5em sans-serif;
+}
